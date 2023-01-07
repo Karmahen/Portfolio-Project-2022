@@ -22,13 +22,17 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/e25bab247d.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/logo.png" alt="" class="logo" />
+          <img src="images/logo.png" alt="" class="logo img-fluid" />
         </a>
         <button
           class="navbar-toggler"
@@ -53,12 +57,7 @@
               <a class="nav-link" href="/work.html">Work</a>
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                
-                href="/contact.html"
-                >Contact</a
-              >
+              <a class="nav-link" href="/contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -114,19 +113,19 @@
         <div class="col d-none d-lg-block">
           <img src="images/weather.png" alt="weather app" class="img-fluid" />
         </div>
+        <!--close col d-none-->
       </div>
-      <!--col close-->
-    </div>
-    <!--row close-->
-    <!--start 3rd row-->
-    <div class="row">
-      <div class="col d-none d-lg-block">
-        <img
-          src="images/dictionary.png"
-          alt="dictionary app"
-          class="img-fluid"
-        />
-      </div>
+      <!--row close-->
+
+      <!--start 3rd row-->
+      <div class="row">
+        <div class="col d-none d-lg-block">
+          <img
+            src="images/dictionary.png"
+            alt="dictionary app"
+            class="img-fluid"
+          />
+        </div>
         <div class="col">
           <div class="project-description">
             <h2 class="mb-5">Dictionary App</h2>
@@ -143,6 +142,37 @@
         <!--col close-->
       </div>
       <!--row close-->
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together.</p>
+          </div>
+          <div>
+            <a href="" class="btn btn-branding mt-3">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:jaimeparker10@gmail.com" class="email-link">
+            jaimeparker10@gmail.com
+          </a>
+        </div>
+        <!--close class dflex-->
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.github.com/Karmahen" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/japarker" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://www.twitter.com/jparker6" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
+        <!--close social links-->
+      </footer>
     </div>
     <!--container close-->
   </body>
