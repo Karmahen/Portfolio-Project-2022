@@ -119,6 +119,11 @@ p {
   line-height: 14px;
 }
 
+.contact-me {
+  padding: 80px;
+  background-color: var(--secondary-color);
+}
+
 footer {
   margin: 60px 0;
 }
@@ -170,6 +175,10 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 24px;
   }
 
   .about-section {
